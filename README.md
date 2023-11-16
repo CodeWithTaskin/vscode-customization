@@ -20,8 +20,8 @@
     "minimap.background": "#141422",
     "tab.activeBackground": "#000000",
     "tab.inactiveBackground": "#191846",
-    "terminal.border": "#2c2c54",
-    "terminal.background": "#2c2c54",
+    "terminal.border": "#000000",
+    "terminal.background": "#000000",
     "statusBar.background": "#fdfd96",
     "statusBar.foreground": "#000000",
     "scrollbarSlider.background": "#b1b1b1",
@@ -35,7 +35,6 @@
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.hover.enabled": false,
-  "window.zoomLevel": 1,
   // Live Server
   "liveServer.settings.CustomBrowser": "microsoft-edge",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -51,7 +50,7 @@
   "liveSassCompile.settings.generateMap": false,
   // VS Code Theme Customization
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
   "workbench.editor.enablePreview": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 15,
@@ -79,6 +78,7 @@
   },
   "editor.minimap.enabled": false
 }
+
 
 ```
 ![Screenshort](https://github.com/CodeWithTaskin/vscode-customization/assets/105396220/1904bbb9-4ecc-4f0a-be92-0fd146a5af92)
