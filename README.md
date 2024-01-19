@@ -13,16 +13,17 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#d3cdcd",
     "editorGroupHeader.tabsBackground": "#000000",
     "activityBar.background": "#000000",
     "activityBar.inactiveForeground": "#b1aeae",
-    "sideBar.background": "#141422",
-    "minimap.background": "#141422",
+    "sideBar.background": "#090909",
+    "minimap.background": "#101012",
     "tab.activeBackground": "#000000",
-    "tab.inactiveBackground": "#191846",
+    "tab.inactiveBackground": "#090812",
     "terminal.border": "#000000",
     "terminal.background": "#000000",
-    "statusBar.background": "#fdfd96",
+    "statusBar.background": "#f5f570",
     "statusBar.foreground": "#000000",
     "scrollbarSlider.background": "#b1b1b1",
     "scrollbarSlider.hoverBackground": "#8da6ce"
@@ -50,13 +51,11 @@
   "liveSassCompile.settings.generateMap": false,
   // VS Code Theme Customization
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
   "workbench.editor.enablePreview": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "terminal.integrated.fontSize": 15,
   "diffEditor.wordWrap": "on",
   "security.workspace.trust.untrustedFiles": "open",
-  "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 10,
 
   // Prettier Config
@@ -76,6 +75,16 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "editor.minimap.enabled": false,
+  "code-runner.runInTerminal": true,
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "workbench.productIconTheme": "feather-vscode",
+  "files.autoSave": "afterDelay"
+}
+
   "editor.minimap.enabled": false
 }
 
