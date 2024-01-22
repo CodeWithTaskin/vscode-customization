@@ -86,9 +86,5 @@
 }
 
 
-  "editor.minimap.enabled": false
-}
-
-
 ```
 ![Screenshort](https://github.com/CodeWithTaskin/vscode-customization/assets/105396220/1904bbb9-4ecc-4f0a-be92-0fd146a5af92)
