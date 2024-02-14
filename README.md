@@ -37,7 +37,7 @@
   "editor.guides.bracketPairsHorizontal": true,
   "editor.hover.enabled": false,
   // Live Server
-  "liveServer.settings.CustomBrowser": "microsoft-edge",
+  "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   // Live SASS Compiler
@@ -84,7 +84,6 @@
   "workbench.productIconTheme": "feather-vscode",
   "files.autoSave": "afterDelay"
 }
-
 
 ```
 ![Screenshort](https://github.com/CodeWithTaskin/vscode-customization/assets/105396220/1904bbb9-4ecc-4f0a-be92-0fd146a5af92)
