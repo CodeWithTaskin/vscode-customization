@@ -3,14 +3,12 @@
 ```js
 {
   "editor.fontSize": 18,
-  "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
-  "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira code",
   "editor.fontLigatures": true,
   "workbench.colorCustomizations": {
     "editorLineNumber.foreground": "#d3cdcd",
@@ -62,9 +60,10 @@
   "prettier.proseWrap": "always",
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
+
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Screencast Mode
   "screencastMode.onlyKeyboardShortcuts": true,
@@ -77,12 +76,19 @@
   },
   "editor.minimap.enabled": false,
   "code-runner.runInTerminal": true,
-  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "workbench.productIconTheme": "feather-vscode",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "notebook.outline.showMarkdownHeadersOnly": false,
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "git.suggestSmartCommit": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
 
 ```
